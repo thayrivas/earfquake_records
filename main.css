@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Comiccat;
+    src: url('Comic_CAT.otf'), format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+.navbar {
+    background-color: #7c7c7c;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #dda7d6;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-projetos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: Comiccat;
+    font-size: 50px;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-family: Comiccat, cursive;
+    font-size: 24px;
+}
+
+#sobre {
+    background-color: #ffffff;
+}
+
+#agenda,
+#agende_sessao {
+    background-color: #ece5eb;
+}
+
+.text-colored {
+    color: #bd8ab6;
+}
+
+.i-colored {
+    color: #7c7c7c;
+}
+
+.nav-projetos .nav-link.active,
+#agende_sessao button {
+    background-color: #dda7d6;
+    color: #fff;
+}
+
+.nav-projetos .nav-link:hover {
+    color:#dda7d6;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

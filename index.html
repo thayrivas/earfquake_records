@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">     
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">EARFQUAKE RECORDS ç</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#agenda" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Agenda
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#projetos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Recent projects
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#agende_sessao" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Book a session
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpg" alt="Foto do estúdio">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" alt="Clairo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" alt="Estúdio">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/records.jpg" class="d-block w-100 rounded" alt="Logo do estúdio">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">About the <span class="text-colored">label</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus vero laudantium iure fuga modi et maiores iusto quos, necessitatibus nemo! Necessitatibus tempora voluptatibus nam eum recusandae numquam atque ab facilis!
+                            </p>
+                            <h3 class="section-title">About the <span class="text-colored">studio</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit molestias ut odit veritatis exercitationem, saepe modi doloremque, ratione, cupiditate impedit dolorem rerum reiciendis distinctio? Fugit nam fugiat harum? Perferendis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agenda" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Our spaces</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/agenda/grey_studio.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5 text-center">
+                            <i class="bi bi-music-note"></i>
+                            Grey Studio
+                        </h3>
+                        <p class="text-center">
+                            Music studio space reserved exclusively for rehearsals and jam sessions.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/agenda/pink_studio.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5 text-center">
+                            <i class="bi bi-cassette"></i>
+                            Pink Studio
+                        </h3>
+                        <p class="text-center">
+                            Music studio space reserved exclusively for album recordings.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/agenda/white-studio.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5 text-center">
+                            <i class="bi bi-activity"></i>
+                            White Studio
+                        </h3>
+                        <p class="text-center">
+                            Music studio space reserved for art creation and stimulation of creativity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Recent projects</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-projetos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#january" class="fw-bold text-start nav-link text-colored active">January</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#february" class="fw-bold text-start nav-link text-colored">February</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#march" class="fw-bold text-start nav-link text-colored">March</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#april" class="fw-bold text-start nav-link text-colored">April</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#upcoming" class="fw-bold text-start nav-link text-colored">Upcoming</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="january">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/prelude.png" alt="Prelude to Ecstasy"/>
+                                        <h6 class="text-colored fw-bold mt-2">Prelude to Ecstasy</h6>
+                                        <p>
+                                            The Last Dinner Party
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/bleachers.png" alt="Bleachers" />
+                                        <h6 class="text-colored fw-bold mt-2">Bleachers</h6>
+                                        <p>
+                                            Bleachers
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/mikas.png" alt="Mika's Laundry" />
+                                        <h6 class="text-colored fw-bold mt-2">Mika's Laundry</h6>
+                                        <p>
+                                            Matt Champion
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/underdressed.png" alt="Underdressed at the Symphony" />
+                                        <h6 class="text-colored fw-bold mt-2">Underdressed at the Symphony</h6>
+                                        <p>
+                                            Faye Webster
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="february">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/boy.jpg" alt="Boy"/>
+                                        <h6 class="text-colored fw-bold mt-2">Boy</h6>
+                                        <p>
+                                            Luke Hemmings
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/rachel.jpg" alt="What A Devastating Turn Of Events" />
+                                        <h6 class="text-colored fw-bold mt-2">What A Devastating Turn Of Events</h6>
+                                        <p>
+                                            Rachel Chinouriri
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/willow.jpg" alt="Empathogen" />
+                                        <h6 class="text-colored fw-bold mt-2">empathogen</h6>
+                                        <p>
+                                            Willow
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/domi.jfif" alt="14 minutes" />
+                                        <h6 class="text-colored fw-bold mt-2">14 minutes</h6>
+                                        <p>
+                                            Dominic Fike
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="march">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/model.jpg" alt="Model"/>
+                                        <h6 class="text-colored fw-bold mt-2">Model</h6>
+                                        <p>
+                                            Wallows
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/sub.jpg" alt="Submarine"/>
+                                        <h6 class="text-colored fw-bold mt-2">Submarine</h6>
+                                        <p>
+                                            The Marías
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/tems.jpg" alt="Born in the Wild"/>
+                                        <h6 class="text-colored fw-bold mt-2">Born in the Wild</h6>
+                                        <p>
+                                            Tems
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/vince.jfif" alt="Dark Times"/>
+                                        <h6 class="text-colored fw-bold mt-2">Dark Times</h6>
+                                        <p>
+                                            Vince Staples
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="april">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/charm.jpg" alt="Charm"/>
+                                        <h6 class="text-colored fw-bold mt-2">Charm</h6>
+                                        <p>
+                                            Clairo
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/jpeg.jfif" alt="I LAY DOWN MY LIFE FOR YOU"/>
+                                        <h6 class="text-colored fw-bold mt-2">I LAY DOWN MY LIFE FOR YOU</h6>
+                                        <p>
+                                            JPEGMAFIA
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/omar.jfif" alt="God Said No"/>
+                                        <h6 class="text-colored fw-bold mt-2">God Said No</h6>
+                                        <p>
+                                            Omar Apollo
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/remi.jpg" alt="Big Ideas"/>
+                                        <h6 class="text-colored fw-bold mt-2">Big Ideas</h6>
+                                        <p>
+                                            Remi Wolf
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="upcoming">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/rex.jfif" alt="The Alexander Technique"/>
+                                        <h6 class="text-colored fw-bold mt-2">The Alexander Technique</h6>
+                                        <p>
+                                            Rex Orange County
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/sabrina.jfif" alt="Short n' Sweet"/>
+                                        <h6 class="text-colored fw-bold mt-2">Short n' Sweet</h6>
+                                        <p>
+                                            Sabrina Carpenter
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/dare.jpg" alt="What's Wrong With New York?"/>
+                                        <h6 class="text-colored fw-bold mt-2">What's Wrong With New York?</h6>
+                                        <p>
+                                            The Dare
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/projects/joe.jpg" alt="Music For The People Who Believe In Love"/>
+                                        <h6 class="text-colored fw-bold mt-2">Music For The People Who Believe In Love</h6>
+                                        <p>
+                                            Joe Jonas
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agende_sessao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Book a session</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Name</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="telefone" class="form-label fw-bold text-colored">Contact</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Message</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Social media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook i-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram i-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp i-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address
+                            </h3>
+                            <p>52 W. 8th Street New York, NY 10011</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
